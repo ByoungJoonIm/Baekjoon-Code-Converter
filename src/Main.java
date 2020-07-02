@@ -106,8 +106,13 @@ public class Main {
 			}
 		});
 	}
+	
+	private static void cli(){
+		System.out.println(replaceClipboard());
+	}
 
 	public static void main(String args[]) {
-		gui();
+		//gui();
+		cli();
 	}
 }
